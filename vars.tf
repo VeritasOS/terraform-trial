@@ -1,3 +1,8 @@
+variable "aws_region" {
+  description = "AWS region to deploy into"
+  type        = "string"
+}
+
 variable "internal_networks" {
   description = "List of internal network cidrs"
   type        = "list"
