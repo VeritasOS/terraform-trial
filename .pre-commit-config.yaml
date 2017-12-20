@@ -1,0 +1,4 @@
+-   repo: https://github.com/antonbabenko/pre-commit-terraform
+    sha: b50c154638d10aef306b3c5538b1813bb3c70064
+    hooks:
+    -   id: terraform_fmt
