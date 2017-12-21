@@ -19,6 +19,11 @@ variable "name" {
   type        = "string"
 }
 
+variable "mfa_delete" {
+  description = "S3 MFA Delete for applicable buckets (requires AWS Root Acct + MFA)"
+  default     = "false"
+}
+
 variable "vpc_cidr" {
   description = "Veritas assigned CIDR (ie: 10.10.0.0/24)"
   type        = "string"
